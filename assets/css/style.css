@@ -24,6 +24,7 @@
   --highlight-color-light: #7a9fc2; /* light blue */
 }
 
+/* GLOBAL STYLES */
 body {
   font-family: var(--primary-font);
 }
@@ -37,6 +38,16 @@ h3 {
 
 .sub-heading-color {
   color: var(--highlight-color);
+}
+
+/* NAVBAR STYLE */
+
+#navbar {
+  background-color: var(--primary-color);
+}
+
+#navbar .logo {
+  width: 30px;
 }
 
 /* TEMP CODE TO VISUALISE GRIDS */
