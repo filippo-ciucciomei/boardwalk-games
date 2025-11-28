@@ -34,10 +34,16 @@ h2,
 h3 {
   font-family: var(--secondary-font);
   color: var(--primary-color);
+  text-transform: uppercase;
 }
 
 .sub-heading-color {
   color: var(--highlight-color);
+}
+
+.section {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 /* NAVBAR STYLE */
@@ -48,6 +54,12 @@ h3 {
 
 #navbar .logo {
   width: 30px;
+}
+
+/* HEADER  */
+
+#header .lead {
+  font-family: var(--secondary-font);
 }
 
 /* TEMP CODE TO VISUALISE GRIDS */
